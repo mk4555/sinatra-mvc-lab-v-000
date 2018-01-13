@@ -7,7 +7,7 @@ class PigLatinizer
     arr.each do |word|
       if vowels.include?(word[0].downcase)
         result << word + "way"
-        return result.join(" ")
+        # return result.join(" ")
       else
         letters = word.split("")
         counter = 0
