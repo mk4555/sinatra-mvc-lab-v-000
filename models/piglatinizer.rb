@@ -23,4 +23,6 @@ class PigLatinizer
     result.join(" ")
   end
 
+  def to_pig_latin(words)
+  end
 end
