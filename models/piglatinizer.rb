@@ -20,8 +20,6 @@ class PigLatinizer
         end
       end
     end
-        # result << word[1..-1] + word[0] + "ay"
-
     result.join(" ")
   end
 
