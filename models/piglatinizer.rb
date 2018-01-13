@@ -16,6 +16,7 @@ class PigLatinizer
             result << word[2..-1] + word[0..1] + "ay"
           else
             result << word[3..-1] + word[0..2] + "ay"
+          end
         end
       end
     end
