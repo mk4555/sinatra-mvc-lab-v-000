@@ -10,7 +10,8 @@ class PigLatinizer
         # return result.join(" ")
       else
         if vowels.include?(word[1].downcase)
-          result << word[]
+          result << word[1..-1] + word[0] + "ay"
+        end
       end
     end
         # result << word[1..-1] + word[0] + "ay"
