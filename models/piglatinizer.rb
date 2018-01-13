@@ -9,8 +9,8 @@ class PigLatinizer
         result << word + "way"
         # return result.join(" ")
       else
-        letters = word.split("")
-        
+        if vowels.include?(word[1].downcase)
+          result << word[]
       end
     end
         # result << word[1..-1] + word[0] + "ay"
